@@ -1,0 +1,57 @@
+{
+  "General": {
+    "enableAutoRefill": true,
+    "refillDmgThreshold": 1,
+    "enableHotbarSwap": true,
+    "sortSound": "minecraft:ui.button.click",
+    "buttonColor": "#ffffffff"
+  },
+  "ItemSortRules": [
+    {
+      "name": "mod",
+      "inverted": false
+    },
+    {
+      "name": "ore_dict",
+      "inverted": false
+    },
+    {
+      "name": "material",
+      "inverted": false
+    },
+    {
+      "name": "count",
+      "inverted": false
+    },
+    {
+      "name": "id",
+      "inverted": false
+    },
+    {
+      "name": "meta",
+      "inverted": false
+    },
+    {
+      "name": "nbt_has",
+      "inverted": false
+    },
+    {
+      "name": "nbt_rules",
+      "inverted": false
+    }
+  ],
+  "NbtSortRules": [
+    {
+      "name": "enchantment",
+      "inverted": false
+    },
+    {
+      "name": "enchantment_book",
+      "inverted": false
+    },
+    {
+      "name": "potion",
+      "inverted": false
+    }
+  ]
+}
