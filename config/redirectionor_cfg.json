@@ -1,0 +1,7 @@
+{
+  "printTransformedClasses": true,
+  "type": "block",
+  "contains": [],
+  "prefix": [],
+  "generateConfigWhenCrash": true
+}

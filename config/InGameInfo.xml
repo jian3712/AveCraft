@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+    <lines at="topleft">
+        <line>
+            <str>$9FPS: </str>
+            <operation>
+                <str>gt</str>
+                <var>fps</var>
+                <num>239</num>
+                <num>164</num>
+                <num>143</num>
+                <num>119</num>
+                <num>89</num>
+                <num>59</num>
+                <num>29</num>
+                <num>14</num>
+                <num>0</num>
+                <str>$5{fps}</str>
+                <str>$d{fps}</str>
+                <str>$9{fps}</str>
+                <str>$2{fps}</str>
+                <str>$a{fps}</str>
+                <str>$e{fps}</str>
+                <str>$6{fps}</str>
+                <str>$c{fps}</str>
+                <str>$4{fps}</str>
+            </operation>
+
+            <str>$9 |$9 Ent:</str>
+            <operation>
+                <str>gt</str>
+                <var>entitiestotal</var>
+                <num>5</num>
+                <num>10</num>
+                <num>25</num>
+                <num>50</num>
+                <num>75</num>
+                <num>100</num>
+                <num>150</num>
+                <num>200</num>
+                <str>$2{entitiestotal}</str>
+                <str>$a{entitiestotal}</str>
+                <str>$9{entitiestotal}</str>
+                <str>$1{entitiestotal}</str>
+                <str>$e{entitiestotal}</str>
+                <str>$6{entitiestotal}</str>
+                <str>$c{entitiestotal}</str>
+                <str>$4{entitiestotal}</str>
+            </operation>
+
+            <str> $9/ </str>
+            <operation>
+                <str>gt</str>
+                <var>entitiesrendered</var>
+                <num>2</num>
+                <num>5</num>
+                <num>10</num>
+                <num>20</num>
+                <num>30</num>
+                <num>40</num>
+                <num>50</num>
+                <str>$2{entitiesrendered}</str>
+                <str>$a{entitiesrendered}</str>
+                <str>$1{entitiesrendered}</str>
+                <str>$9{entitiesrendered}</str>
+                <str>$d{entitiesrendered}</str>
+                <str>$5{entitiesrendered}</str>
+                <str>$6{entitiesrendered}</str>
+            </operation>
+
+            <str>$9 | $9Realistic time: $6{rltime24}</str>
+        </line>
+
+        <line>
+        <operation>
+            <str>gt</str>
+            <var>tps</var>
+                <num>20</num>
+                <num>19</num>
+                <num>17</num>
+                <num>15</num>
+                <num>10</num>
+                <num>0</num>
+                    <str>$bTPS: $5{tps}</str>
+                    <str>$bTPS: $d{tps}</str>
+                    <str>$bTPS: $e{tps}</str>
+                    <str>$bTPS: $6{tps}</str>
+                    <str>$bTPS: $c{tps}</str>
+                    <str>$bTPS: $4{tps}</str>
+        </operation>
+        <str>$9 | </str>
+        <operation>
+            <str>gt</str>
+            <var>mspt</var>
+                <num>75</num>
+                <num>50</num>
+                <num>25</num>
+                <num>15</num>
+                <num>10</num>
+                <num>0</num>
+                    <str>$bTPS: $4{mspt}</str>
+                    <str>$bTPS: $c{mspt}</str>
+                    <str>$bTPS: $6{mspt}</str>
+                    <str>$bTPS: $e{mspt}</str>
+                    <str>$bTPS: $2{mspt}</str>
+                    <str>$bTPS: $a{mspt}</str>
+        </operation>
+            <str>$9 | $9RAM: $9$9</str>
+            <str>$9$9$9</str>
+            <operation>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>70</num>
+                <num>85</num>
+                <num>90</num>
+                <num>100</num>
+                <str>$a</str>
+                <str>$e</str>
+                <str>$c</str>
+                <str>$4</str>
+            </operation>
+            <round>
+                <div>
+                    <var>memused</var>
+                    <num>1073741824</num>
+                </div>
+                <num>1</num>
+            </round>
+            <str>G $9/ </str>
+            <op>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>70</num>
+                <num>85</num>
+                <num>90</num>
+                <num>100</num>
+                <str>$a</str>
+                <str>$e</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str/>
+            </op>
+            <round>
+                <div>
+                    <var>memmax</var>
+                    <num>1073741824</num>
+                </div>
+                <num>1</num>
+            </round>
+            <str>G$9</str>
+        </line>
+    </lines>
+</config>
