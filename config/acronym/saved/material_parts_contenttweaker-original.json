@@ -1,0 +1,23 @@
+{
+  "materialMappings": {
+    "chromium_block": 20,
+    "stainless_steel_dust": 14,
+    "silicon_ingot": 5,
+    "chromium_ore": 26,
+    "chromium_clump": 29,
+    "chromium_crystal": 27,
+    "stainless_steel_fluid": 16,
+    "silicon_dust": 7,
+    "stainless_steel_nugget": 15,
+    "chromium_dust": 21,
+    "silicon_block": 6,
+    "stainless_steel_ingot": 12,
+    "chromium_shard": 28,
+    "chromium_fluid": 23,
+    "stainless_steel_block": 13,
+    "chromium_ingot": 19,
+    "silicon_fluid": 9,
+    "silicon_nugget": 8,
+    "chromium_nugget": 22
+  }
+}
