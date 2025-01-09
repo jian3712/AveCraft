@@ -1,0 +1,14 @@
+{
+    "values": {
+        "before": {
+            "OD|ingotSilicon" : 128,
+            "OD|paper" : 32,
+            "OD|oreGold" : 0,
+            "OD|oreIron" : 0,
+            "OD|oreCoal" : 0,
+            "OD|oreDiamond" : 0,
+            "OD|oreEmerald" : 0,
+            "OD|oreQuartz" : 0
+        }
+    }
+}
